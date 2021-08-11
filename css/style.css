@@ -1,0 +1,5 @@
+header{
+    border-image-repeat: repeat;
+    border-image: url(img/hr-img.png);
+    border-width: 2rem;
+}
