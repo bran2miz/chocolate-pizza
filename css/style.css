@@ -1,5 +1,99 @@
-header{
-    border-image-repeat: repeat;
-    border-image-source:url(/img/hr-img.png);
-    border-width: 2rem;
+
+
+body {
+  margin: 67px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forkimg {
+  margin-right: 15px;
+  margin-top: 6px;
+}
+
+.title-bar {
+  margin-bottom: 25px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+#blogStart {
+  font-size: 40px;
+  font-family: 'Yellowtail', cursive;
+  font-weight: bolder;
+}
+
+#blogStartTag {
+    font-size: 15px;
+    text-transform: uppercase; 
+}
+
+.mail {
+    margin-left: 10px; 
+  }
+
+.top-border {
+    background-image: url(../img/hr-img.png);
+    background-repeat: repeat;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+
+.title-of-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+    font-size:40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#subhead {
+  color:rgb(179, 177, 177);
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top:3px;
+}
+
+.print {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#print-text {
+  color:rgb(179, 177, 177);
+  font-size: small;
+}
+
+.border-bottom {
+  background-image: url(/img/hr-img.png);
+  background-repeat: repeat;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
+}
+
+hr {
+  width:20px;
+  /* border:rgb(241, 239, 239) solid 1px; */
